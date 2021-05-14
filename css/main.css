@@ -157,7 +157,7 @@ h5 {
 }
 
 h6 {
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 500;
 }
 
@@ -14154,7 +14154,9 @@ a.logo {
 
 a.logo img {
 	display: inline-block;
-	max-height: 80px;
+	max-width: 100px;
+	width: 100px;
+	height: auto;
 }
 
 a.logo .logo-text {
