@@ -10314,6 +10314,11 @@ widget_recent_entries
 .page_topline .widget_nav_menu a:before {
 	display: none;
 }
+.page_copyright .footer-logo img{
+	max-width: 80px;
+	height: auto;
+	width: 60px;
+}
 
 .widget_categories select,
 .widget_archive select {
