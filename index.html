@@ -135,26 +135,8 @@
 										</a>
 									</div>
 								</div>
-								<!--
-						if you want to display toplogo info on smaller screens
-						than use following CSS classes below:
-						d-sm-flex justify-lg-content-end justify-content-sm-between align-items-center
-					-->
+				
 								<div class="d-none d-lg-flex justify-lg-content-end align-items-center">
-									<!-- <div class="media">
-										<div class="icon-styled bordered round color-main fs-20">
-											<i class="fa fa-map-marker"></i>
-										</div>
-
-										<div class="media-body">
-											<h6>
-												<strong>Open Hours</strong>
-											</h6>
-											<p>
-												Mon-Fri: 9-17; Sat: 9-20; Sun: Off
-											</p>
-										</div>
-									</div> -->
 
 									<div class="media">
 										<a href="tel:+49 170 54 000 45" class="icon-styled bordered round color-main fs-20">
@@ -223,10 +205,10 @@
 					</span>
 				</div>
 			</header>
-			<!-- End Of Menu -->
-			<span class="toggle_menu_side header-slide">
+			<!-- End Of header -->
+			<!-- <span class="toggle_menu_side header-slide">
 				<span></span>
-			</span>
+			</span> -->
 
 			<section class="page_slider main_slider">
 				<div class="flexslider" data-nav="true" data-dots="false">
@@ -238,7 +220,7 @@
 							</span>
 							<div class="container">
 								<div class="row">
-									<div class="col-12 itro_slider">
+									<div class="col-8 itro_slider">
 										<div class="intro_layers_wrapper">
 											<div class="intro_layers">
 												<div class="intro_layer" data-animation="fadeIn">
@@ -264,6 +246,40 @@
 											<!-- eof .intro_layers -->
 										</div>
 										<!-- eof .intro_layers_wrapper -->
+									</div>
+									<div class="col-lg-4 animate" data-animation="fadeInUp" style="z-index: 10;">
+										<div class="widget widget_contact_form">
+											<h3 class="widget-title">Haben Sie Fragen?</h3>
+											<form class="contact-form c-mb-20 c-gutter-20" method="post" action="/">
+												<div class="form-group has-placeholder">
+													<label for="name">NAME
+														<span class="required">*</span>
+													</label>
+													<i class="fa fa-user color-main"></i>
+													<input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control" placeholder="NAME">
+												</div>
+			
+												<div class="form-group has-placeholder">
+													<label for="email">E-MAIL
+														<span class="required">*</span>
+													</label>
+													<i class="fa fa-envelope color-main"></i>
+													<input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control" placeholder="E-MAIL">
+												</div>
+			
+												<div class="form-group has-placeholder">
+													<label for="message">NACHRICHT</label>
+													<i class="fa fa-pencil color-main"></i>
+													<textarea aria-required="true" rows="6" cols="45" name="message" id="message" class="form-control" placeholder="NACHRICHT"></textarea>
+												</div>
+			
+												<div class="form-group">
+													<button type="submit" id="contact_form_submit" name="contact_submit" class="btn btn-maincolor">ANFRAGE SENDEN
+													</button>
+												</div>
+			
+											</form>
+										</div>
 									</div>
 									<!-- eof .col-* -->
 								</div>
@@ -352,6 +368,7 @@
 					<a href="#about" class="mouse-button animated floating"></a>
 				</div>
 			</section>
+
 			<div class="divider-10 d-block d-sm-none"></div>
 			<section class="s-pt-30 s-pt-lg-50 s-pt-xl-25 ls about-home" id="about">
 				<div class="divider-5 d-none d-xl-block"></div>
@@ -601,7 +618,9 @@
 						<img src="img/vertical_line.png" alt="">
 						<div class="divider-40 d-block d-sm-none"></div>
 					</div>
-					<div class="row">
+
+
+					<!-- <div class="row">
 						<div class="col-lg-12">
 							<div class="row justify-content-center">
 								<div class="col-md-10 col-xl-5">
@@ -714,12 +733,13 @@
 									</div>
 								</div>
 							</div>
-							<!-- .owl-carousel-->
+						
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</section>
 
+			<div class="divider-35"></div>
 			<section class="page_slider team_slider" id="team">
 				<div class="container-fluid">
 					<div class="row">
@@ -1289,12 +1309,10 @@
 										<textarea aria-required="true" rows="6" cols="45" name="message" id="message" class="form-control" placeholder="NACHRICHT"></textarea>
 									</div>
 
-
 									<div class="form-group">
 										<button type="submit" id="contact_form_submit" name="contact_submit" class="btn btn-maincolor">ANFRAGE SENDEN
 										</button>
 									</div>
-
 
 								</form>
 							</div>
