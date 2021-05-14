@@ -47,15 +47,31 @@
 	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
 		<div class="fw-messages-wrap ls p-normal">
 			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
-			<!--
+<!-- 			
 		<ul class="list-unstyled">
 			<li>Message To User</li>
 		</ul>
-		-->
+		 -->
 
 		</div>
 	</div>
 	<!-- eof .modal -->
+
+	<!-- Cookies -->
+	<div class="container-fluid cookie_container">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 p-3 cookie_wrapper">
+					<p>Diese Seite verwendet Cookies, um lhnen den bestmoglichen Service zu gewahrleisten. Wenn Sie auf der Seite weitersurfen, stimmen Sie der <span> <a href="#">Cookie-Nutzung</a></span> zu.</p>
+					<div class="btns_container text-center mt-4">
+						<button class="btn-sm mr-2" id="accept_cookie" type="button">Ok</button>
+						<button class="btn-sm mt-2" id="reject_cookie" type="button">Ablehnen</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Cookies -->
 
 	<!-- wrappers for visual page editor and boxed version of template -->
 	<div id="canvas">
@@ -165,7 +181,7 @@
 			<header class="page_header ls s-bordertop nav-narrow header-layuot3 tog-ls">
 				<div class="container-fluid">
 					<div class="row align-items-center">
-						<div class="col-xl-12">
+						<div class="col-xl-12 text-center">
 
 							<div class="nav-wrap">
 								<!-- main nav start -->
@@ -240,46 +256,12 @@
 													</h3>
 												</div>
 												<div class="intro_layer page-bottom" data-animation="expandUp">
-													<a class="btn btn-maincolor" href="about.html">Get Started</a>
+													<a class="btn btn-maincolor" href="contact.html">KONTAKT</a>
 												</div>
 											</div>
 											<!-- eof .intro_layers -->
 										</div>
 										<!-- eof .intro_layers_wrapper -->
-									</div>
-									<div class="col-lg-4 animate" data-animation="fadeInUp" style="z-index: 10;">
-										<div class="widget widget_contact_form">
-											<h3 class="widget-title">Haben Sie Fragen?</h3>
-											<form class="contact-form c-mb-20 c-gutter-20" method="post" action="/">
-												<div class="form-group has-placeholder">
-													<label for="name">NAME
-														<span class="required">*</span>
-													</label>
-													<i class="fa fa-user color-main"></i>
-													<input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control" placeholder="NAME">
-												</div>
-			
-												<div class="form-group has-placeholder">
-													<label for="email">E-MAIL
-														<span class="required">*</span>
-													</label>
-													<i class="fa fa-envelope color-main"></i>
-													<input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control" placeholder="E-MAIL">
-												</div>
-			
-												<div class="form-group has-placeholder">
-													<label for="message">NACHRICHT</label>
-													<i class="fa fa-pencil color-main"></i>
-													<textarea aria-required="true" rows="6" cols="45" name="message" id="message" class="form-control" placeholder="NACHRICHT"></textarea>
-												</div>
-			
-												<div class="form-group">
-													<button type="submit" id="contact_form_submit" name="contact_submit" class="btn btn-maincolor">ANFRAGE SENDEN
-													</button>
-												</div>
-			
-											</form>
-										</div>
 									</div>
 									<!-- eof .col-* -->
 								</div>
@@ -1364,6 +1346,7 @@
 
 	<script src="js/compressed.js"></script>
 	<script src="js/main.js"></script>
+	<script src="./js/cookie.js"></script>
 
 
 </body>

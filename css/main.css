@@ -553,6 +553,32 @@ ol.list3 li:after {
 ** Bootstrap Overrides
 */
 /* bootstrap breadcrumbs*/
+.cookie_container {
+	display: none;
+}
+.active_cookie{
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #1f2732;
+	padding: 1rem 0;
+	width: 100%;
+	z-index: 9999;
+	transition: all .4s ease;
+}
+.active_cookie .row .cookie_wrapper p{
+	color: #fff;
+	font-family: Poppins, sans-serif;
+}
+.active_cookie .row .cookie_wrapper a{
+	color: #ff497c;
+}
+.active_cookie .row .cookie_wrapper .btns_container button{
+	border: 2px solid #ff497c;
+	border-radius: 20px;
+	padding:6px 16px;
+}
 .breadcrumb {
 	background-color: transparent;
 	border-radius: 0;
