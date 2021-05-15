@@ -19885,9 +19885,14 @@ a.btn {
 		margin-top: 20px;
 	}
 }
-
-.support-section {
-	background-image: url("../img/bg_3.jpg");
+/* .support-section{
+	background-color: #eaeff3;
+} */
+.support-section .container .row #img_container{
+	position: relative;
+	background-image: url("../img/contact-bg.png");
+	background-size: cover;
+	background-position: center;
 }
 
 .support-section h1 {
@@ -19932,6 +19937,10 @@ a.btn {
 @media (max-width: 991px) {
 	p.teaser-content {
 		font-size: 13px;
+	}
+	.support-section .container .row #img_container{
+		background-image: none;
+		height: 0;
 	}
 }
 
