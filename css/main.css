@@ -14923,7 +14923,7 @@ body.active-side-header.slide-right .page_header_side {
 	}
 
 	.page_slider .intro_featured_word {
-		font-size: 138px;
+		font-size: 80px;
 	}
 
 	.page_slider .intro_after_featured_word {
@@ -14940,14 +14940,14 @@ body.active-side-header.slide-right .page_header_side {
 	}
 
 	.page_slider .intro_featured_word {
-		font-size: 200px;
+		font-size: 80px;
 		font-weight: 600;
 		margin-bottom: 20px;
 		white-space: nowrap;
 	}
 
 	.container .page_slider .intro_featured_word {
-		font-size: 138px;
+		font-size: 80px;
 	}
 }
 
@@ -15194,7 +15194,7 @@ body.active-side-header.slide-right .page_header_side {
 @media (min-width: 768px) {
 	.page_slider .slide2 .intro_featured_word {
 		margin-bottom: 0;
-		margin-top: 10px;
+		margin-top: 20px;
 	}
 }
 
@@ -15239,9 +15239,8 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .page_slider .slide3 .intro_featured_word {
-	font-size: 100px;
-	font-weight: 700;
-	margin-bottom: 13px;
+	font-size: 80px;
+	margin-bottom: 30px;
 }
 
 @media (max-width: 767px) {
@@ -19885,9 +19884,6 @@ a.btn {
 		margin-top: 20px;
 	}
 }
-/* .support-section{
-	background-color: #eaeff3;
-} */
 .support-section .container .row #img_container{
 	position: relative;
 	background-image: url("../img/contact-bg.png");
