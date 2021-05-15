@@ -14923,7 +14923,7 @@ body.active-side-header.slide-right .page_header_side {
 	}
 
 	.page_slider .intro_featured_word {
-		font-size: 80px;
+		font-size: 138px;
 	}
 
 	.page_slider .intro_after_featured_word {
@@ -14940,14 +14940,14 @@ body.active-side-header.slide-right .page_header_side {
 	}
 
 	.page_slider .intro_featured_word {
-		font-size: 80px;
+		font-size: 160px;
 		font-weight: 600;
 		margin-bottom: 20px;
 		white-space: nowrap;
 	}
 
 	.container .page_slider .intro_featured_word {
-		font-size: 80px;
+		font-size: 138px;
 	}
 }
 
@@ -15157,7 +15157,6 @@ body.active-side-header.slide-right .page_header_side {
 .flex-direction-nav .flex-next:hover:before {
 	left: 40px;
 }
-
 .page_slider .slide2 .intro_before_featured_word {
 	font-size: 60px;
 }
@@ -15194,7 +15193,7 @@ body.active-side-header.slide-right .page_header_side {
 @media (min-width: 768px) {
 	.page_slider .slide2 .intro_featured_word {
 		margin-bottom: 0;
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 }
 
@@ -15239,7 +15238,8 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .page_slider .slide3 .intro_featured_word {
-	font-size: 80px;
+	font-size: 100px;
+	font-weight: 600;
 	margin-bottom: 30px;
 }
 
